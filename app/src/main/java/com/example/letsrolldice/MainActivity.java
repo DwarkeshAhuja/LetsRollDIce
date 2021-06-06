@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
         gameTie = findViewById(R.id.game_tie);
         computerWinner = findViewById(R.id.computer_winner);
         playerWinner = findViewById(R.id.player_winner);
-        ComputerScores.setText("" + computerScore);
-        PlayerScores.setText("" + playerScore);
+
 
         gameTie.setVisibility(View.INVISIBLE);
         computerWinner.setVisibility(View.INVISIBLE);
@@ -57,21 +56,21 @@ public class MainActivity extends AppCompatActivity {
                     playerWinner.setVisibility(View.INVISIBLE);
                     gameTie.setVisibility(View.INVISIBLE);
                     computerScore += 10;
-                    ComputerScores.setText("" + computerScore);
-                    PlayerScores.setText("" + playerScore);
+                    //ComputerScores.setText(" " + computerScore);
+                    //PlayerScores.setText(" " + playerScore);
                 }else if(randNextComputer == randNextPlayer){
                     computerWinner.setVisibility(View.INVISIBLE);
                     playerWinner.setVisibility(View.INVISIBLE);
                     gameTie.setVisibility(View.VISIBLE);
-                    ComputerScores.setText("" + computerScore);
-                    PlayerScores.setText("" + playerScore);
+                    //ComputerScores.setText(" " + computerScore);
+                    //PlayerScores.setText(" " + playerScore);
                 }else{
                     computerWinner.setVisibility(View.INVISIBLE);
                     playerWinner.setVisibility(View.VISIBLE);
                     gameTie.setVisibility(View.INVISIBLE);
                     playerScore +=10;
-                    ComputerScores.setText("" + computerScore);
-                    PlayerScores.setText("" + playerScore);
+                    //ComputerScores.setText(" " + computerScore);
+                    //PlayerScores.setText(" " + playerScore);
                 }
             }
         });
@@ -91,21 +90,21 @@ public class MainActivity extends AppCompatActivity {
                     playerWinner.setVisibility(View.INVISIBLE);
                     gameTie.setVisibility(View.INVISIBLE);
                     computerScore += 10;
-                    ComputerScores.setText("" + computerScore);
-                    PlayerScores.setText("" + playerScore);
+                    //ComputerScores.setText(" " + computerScore);
+                    //PlayerScores.setText(" " + playerScore);
                 }else if(randNextComputer == randNextPlayer){
                     computerWinner.setVisibility(View.INVISIBLE);
                     playerWinner.setVisibility(View.INVISIBLE);
                     gameTie.setVisibility(View.VISIBLE);
-                    ComputerScores.setText("" + computerScore);
-                    PlayerScores.setText("" + playerScore);
+                    //ComputerScores.setText(" " + computerScore);
+                    //PlayerScores.setText(" " + playerScore);
                 }else{
                     computerWinner.setVisibility(View.INVISIBLE);
                     playerWinner.setVisibility(View.VISIBLE);
                     gameTie.setVisibility(View.INVISIBLE);
                     playerScore +=10;
-                    ComputerScores.setText("" + computerScore);
-                    PlayerScores.setText("" + playerScore);
+                    //ComputerScores.setText(" " + computerScore);
+                    //PlayerScores.setText(" " + playerScore);
                 }
             }
         });

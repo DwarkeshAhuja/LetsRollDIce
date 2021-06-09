@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#1B504B"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -141,6 +141,13 @@
             </LinearLayout>
 
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/finalResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/computer_winner" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

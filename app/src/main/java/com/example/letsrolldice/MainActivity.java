@@ -14,7 +14,8 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     Button lower, higher;
-    ImageView computerDie, playerDie, gameTie,computerWinner,playerWinner,finalResult;
+    ImageView computerDie, playerDie, gameTie,
+            computerWinner,playerWinner,finalResult;
     int computerScore =0;
     int playerScore =0;
     TextView ComputerScores, PlayerScores;
